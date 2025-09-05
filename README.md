@@ -12,22 +12,8 @@ The pipeline combines **Matrix Factorization (SVD/ALS)** for candidate generatio
 
 ---
 
-## 📂 Project Structure
 
-movielens-25m-recsys/
-├─ notebooks/
-│  ├─ 01_eda.ipynb            # Exploratory Data Analysis (EDA)
-│  ├─ 02_mf_baseline.ipynb    # Matrix Factorization (SVD/ALS)
-│  ├─ 03_hybrid_ranker.ipynb  # Hybrid model with LightGBM/XGBoost
-├─ src/
-│  ├─ data_utils.py           # k-core filtering, train/valid/test split
-│  ├─ mf.py                   # Matrix Factorization utilities
-│  ├─ ranker.py               # Hybrid model training & inference
-│  ├─ metrics.py              # Precision@K, Recall@K, NDCG
-├─ outputs/
-│  ├─ data/                   # Parquet files, label tables, features
-│  └─ figure/                 # Result figures (Precision/Recall/NDCG plots)
-└─ README.md
+<pre> ## 📂 Project Structure ``` movielens-25m-recsys/ ├─ notebooks/ │ ├─ 01_eda.ipynb # Data exploration │ ├─ 02_mf_baseline.ipynb # SVD candidate generation │ ├─ 03_hybrid_ranker.ipynb # LightGBM ranking ├─ outputs/ │ ├─ parquet/ # intermediate parquet files (train/valid/test, features, candidates) │ ├─ figs/ # saved figures │ ├─ tables/ # evaluation tables │ └─ models/ # trained ranker models └─ README.md ``` </pre>
 
 
 ---
