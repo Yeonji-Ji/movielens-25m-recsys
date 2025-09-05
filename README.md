@@ -14,7 +14,7 @@ The pipeline combines **Matrix Factorization (SVD/ALS)** for candidate generatio
 
 
 ## 📂 Project Structure 
-``` movielens-25m-recsys/ ├─ notebooks/ │ ├─ 01_eda.ipynb # Data exploration │ ├─ 02_mf_baseline.ipynb # SVD candidate generation │ ├─ 03_hybrid_ranker.ipynb # LightGBM ranking ├─ outputs/ │ ├─ parquet/ # intermediate parquet files (train/valid/test, features, candidates) │ ├─ figs/ # saved figures │ ├─ tables/ # evaluation tables │ └─ models/ # trained ranker models └─ README.md ```
+``` movielens-25m-recsys/<br> ├─ notebooks/ │ ├─ 01_eda.ipynb # Data exploration │ ├─ 02_mf_baseline.ipynb # SVD candidate generation │ ├─ 03_hybrid_ranker.ipynb # LightGBM ranking ├─ outputs/ │ ├─ parquet/ # intermediate parquet files (train/valid/test, features, candidates) │ ├─ figs/ # saved figures │ ├─ tables/ # evaluation tables │ └─ models/ # trained ranker models └─ README.md ```
 
 ---
 
