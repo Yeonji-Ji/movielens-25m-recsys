@@ -15,12 +15,12 @@ The pipeline combines **Matrix Factorization (SVD/ALS)** for candidate generatio
 
 ## 📂 Project Structure 
 
-```movielens-25m-recsys/```
-├─ ```notebooks/```
+```movielens-25m-recsys/``` <br>
+├─ ```notebooks/``` <br>
 │  ├─ ```01_eda.ipynb```            # Data exploration & preprocessing <br>
 │  ├─ ```02_mf_baseline.ipynb```    # SVD/ALS candidate generation <br>
 │  └─ ```03_hybrid_ranker.ipynb```  # LightGBM/XGBoost ranking <br>
-├─ ```outputs/```
+├─ ```outputs/``` <br>
 │  ├─ ```parquet/```                # intermediate parquet files (train/valid/test, features, candidates) <br>
 │  ├─ ```figs/```                   # saved figures (charts for portfolio) <br>
 │  ├─ ```tables/```                 # evaluation metrics tables <br>
